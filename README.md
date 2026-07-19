@@ -1,71 +1,98 @@
 <div align="center">
 
-# Hi, I'm William Chang 👋
+# William Chang
 
-### Building privacy-first macOS apps and practical AI decision tools.
-### 打造本地优先的 macOS 应用与实用 AI 决策工具。
+### AI Agent Infrastructure · Reliable Applied AI · Native Product Engineering
 
-I turn real workflow problems into focused desktop products—from information capture and analysis to competitive intelligence and Mac maintenance.
+I build systems that help AI agents preserve context, ground decisions in evidence, and turn messy workflows into dependable products.
 
-我把真实工作流中的问题做成专注、可落地的桌面产品，覆盖信息采集、数据分析、竞品情报和 Mac 日常维护。
+专注 AI Agent 基础设施、可信 AI 应用与原生产品工程。
 
-[![Email](https://img.shields.io/badge/Email-b3144161%40gmail.com-0A84FF?style=flat-square&logo=gmail&logoColor=white)](mailto:b3144161@gmail.com)
-[![macOS](https://img.shields.io/badge/Focus-macOS-111827?style=flat-square&logo=apple&logoColor=white)](https://github.com/wentaoz?tab=repositories)
-[![Swift](https://img.shields.io/badge/Swift-SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/wentaoz?tab=repositories)
+[![Open to Work](https://img.shields.io/badge/Open_to-AI_Agent_%26_Applied_AI_Roles-22C55E?style=flat-square)](mailto:b3144161@gmail.com)
+[![Python](https://img.shields.io/badge/Python-Agent_Tooling-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/wentaoz?tab=repositories)
+[![Swift](https://img.shields.io/badge/Swift-Native_AI_Products-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/wentaoz?tab=repositories)
+[![Local First](https://img.shields.io/badge/Architecture-Local--first-111827?style=flat-square)](https://github.com/wentaoz?tab=repositories)
 
 </div>
 
 ---
 
-## About me · 关于我
+## What I work on
 
-I enjoy building software that is calm, useful, and respectful of user data. My current work sits at the intersection of native macOS development, applied AI, product analytics, and workflow automation.
+Useful AI needs more than a strong model response. It needs **continuity, evidence, recovery, safe boundaries, and a product surface people can trust**.
 
-我喜欢做克制、实用、尊重用户数据的软件。目前主要探索原生 macOS 开发、AI 应用、产品分析与工作流自动化的交叉方向。
+My projects explore that full stack:
 
-- **Native macOS · 原生 Mac 应用** — Swift, SwiftUI, AppKit, menu bar utilities
-- **Applied AI · AI 应用** — summarization, evidence tracking, report generation, decision support
-- **Local-first · 本地优先** — privacy-aware architecture with clear safety boundaries
-- **Product workflows · 产品工作流** — turning repeated manual work into reliable tools
+- **Agent reliability and interoperability** — session handoff, task recovery, context portability, idempotent continuation
+- **Evidence-grounded AI** — local analytics, traceable SQL, answer validation, citations, persistent task queues
+- **Native AI products** — privacy-aware macOS experiences built with Swift, SwiftUI, and AppKit
+- **Developer tools** — Python CLIs, skills, adapters, automation, tests, and multi-version CI
 
-## Featured projects · 代表项目
+## Selected work
 
-| Project | What it does |
-| --- | --- |
-| [**MacDailyCleaner**](https://github.com/wentaoz/MacDailyCleaner) | A native, privacy-first macOS cleaner and disk status utility.<br>原生、注重隐私的 Mac 日常清理与磁盘状态工具。 |
-| [**WorkMemory**](https://github.com/wentaoz/WorkMemory) | A local work-memory app for capturing meetings, web pages, documents, voice notes, and action items.<br>记录会议、网页、文档、语音和待办上下文的本地工作记忆应用。 |
-| [**NexaFlow**](https://github.com/wentaoz/NexaFlow) | An AI analytics workbench for metrics, evidence tracking, answer validation, and report generation.<br>面向指标计算、证据追踪、答案校验和报告生成的 AI 分析工作台。 |
-| [**RivalRadar**](https://github.com/wentaoz/RivalRadar) | A macOS competitive-intelligence monitor powered by web sources and AI-assisted synthesis.<br>结合多源采集与 AI 去重、摘要、报告生成的 macOS 竞品情报工具。 |
+### [Coding Agent Handoff](https://github.com/wentaoz/coding-agent-handoff)
 
-## How I build · 我的产品原则
+Cross-agent task continuity for Claude Code and Codex. When one coding agent hits a usage limit, the CLI extracts portable local session context, reconciles Git state, redacts common secrets, and launches the other agent with a safe takeover contract—without requiring the limited model to respond.
+
+`Python` · `Agent interoperability` · `Session recovery` · `Developer tools`
+
+### [NexaFlow](https://github.com/wentaoz/NexaFlow)
+
+A local-first AI analytics workbench for product, operations, and business teams. It combines spreadsheet ingestion, DuckDB analysis, executable SQL evidence, answer validation, user-correction memory, persistent AI task queues, and report generation.
+
+`Swift` · `DuckDB` · `Evidence-grounded AI` · `Analytics agents`
+
+### [WorkMemory](https://github.com/wentaoz/WorkMemory)
+
+A native macOS work-memory system that turns window, web, typing, OCR, and document context into searchable sessions, grounded answers, summaries, projects, and action items—while keeping collection and storage local-first.
+
+`SwiftUI` · `Local retrieval` · `Knowledge systems` · `Privacy`
+
+### [RivalRadar](https://github.com/wentaoz/RivalRadar)
+
+A competitive-intelligence monitor that brings together RSS, web pages, Tavily search, and Chrome session sources, then applies AI-assisted deduplication, synthesis, trend analysis, and report generation.
+
+`Swift` · `Information pipelines` · `AI synthesis` · `Product intelligence`
+
+### [MacDailyCleaner](https://github.com/wentaoz/MacDailyCleaner)
+
+A native, privacy-first macOS menu-bar utility for safe daily cleanup and disk-health visibility. It reflects the other half of my work: turning systems concerns into focused products that people can understand and control.
+
+`SwiftUI` · `AppKit` · `macOS` · `Product engineering`
+
+## Engineering principles
 
 ```text
-Useful before flashy.       实用优先于炫技。
-Local before cloud.         能本地完成，就不上传云端。
-Evidence before guesses.    用证据支撑结论，而不是凭感觉。
-Safe by default.            默认安全，关键操作保持透明可控。
+Continuity over fragile sessions.     让任务跨越会话和工具继续运行。
+Evidence over plausible answers.      让结论能够追溯、验证和复现。
+Local-first when privacy matters.     敏感数据优先在本地处理。
+Safe recovery over blind retries.     恢复之前先核实，避免重复副作用。
+Working products over AI demos.       把模型能力做成真正可用的产品。
 ```
 
-## Current focus · 近期方向
+## Current direction
 
-- Shipping polished native macOS utilities · 打磨真正可交付的原生 macOS 工具
-- Turning AI workflows into reliable products · 把 AI 工作流产品化、工程化
-- Improving privacy, explainability, and decision quality · 提升隐私、可解释性与决策质量
+I am currently focused on:
 
-## Stack · 技术栈
+- cross-agent continuity, memory, and task recovery;
+- reliable tool-using agents with observable and testable behavior;
+- evidence-grounded analytics and decision-support systems;
+- native interfaces for privacy-sensitive AI workflows.
 
-`Swift` · `SwiftUI` · `AppKit` · `Python` · `macOS` · `Local-first AI` · `Automation`
+I am interested in engineering and product opportunities across **AI agent platforms, applied AI, developer tools, model UX, and native AI products**.
 
-## Contact · 联系我
+## Stack
 
-Ideas, product feedback, and thoughtful collaboration are always welcome.
+`Python` · `Swift` · `SwiftUI` · `AppKit` · `DuckDB` · `SQLite` · `macOS` · `Agent tooling` · `Local-first AI` · `Automation` · `CI`
 
-欢迎交流产品想法、使用反馈，以及有意思的合作方向。
+## Contact
+
+If you are building reliable AI agents, developer infrastructure, or thoughtful AI products, I would be glad to connect.
 
 **Email:** [b3144161@gmail.com](mailto:b3144161@gmail.com)
 
 ---
 
 <div align="center">
-  <sub>Build useful things. Keep them understandable. · 做有用的产品，也让它始终清晰可控。</sub>
+  <sub>Build AI systems that can continue, explain, and recover.</sub>
 </div>
