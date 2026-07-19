@@ -8,7 +8,6 @@ I build systems that help AI agents preserve context, ground decisions in eviden
 
 专注 AI Agent 基础设施、可信 AI 应用与原生产品工程。
 
-[![Open to Work](https://img.shields.io/badge/Open_to-AI_Agent_%26_Applied_AI_Roles-22C55E?style=flat-square)](mailto:b3144161@gmail.com)
 [![Python](https://img.shields.io/badge/Python-Agent_Tooling-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/wentaoz?tab=repositories)
 [![Swift](https://img.shields.io/badge/Swift-Native_AI_Products-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/wentaoz?tab=repositories)
 [![Local First](https://img.shields.io/badge/Architecture-Local--first-111827?style=flat-square)](https://github.com/wentaoz?tab=repositories)
@@ -79,17 +78,9 @@ I am currently focused on:
 - evidence-grounded analytics and decision-support systems;
 - native interfaces for privacy-sensitive AI workflows.
 
-I am interested in engineering and product opportunities across **AI agent platforms, applied AI, developer tools, model UX, and native AI products**.
-
 ## Stack
 
 `Python` · `Swift` · `SwiftUI` · `AppKit` · `DuckDB` · `SQLite` · `macOS` · `Agent tooling` · `Local-first AI` · `Automation` · `CI`
-
-## Contact
-
-If you are building reliable AI agents, developer infrastructure, or thoughtful AI products, I would be glad to connect.
-
-**Email:** [b3144161@gmail.com](mailto:b3144161@gmail.com)
 
 ---
 
